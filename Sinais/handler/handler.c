@@ -36,15 +36,12 @@ int main() {
 	
 	if (tipoDeEspera == 1) {
 		//busy
-		while (1) {
-			sleep(1);
-		}
+		while (1);
 	} else if (tipoDeEspera == 2) {
 		//blocking
 		while (1) {
 			pause();
 		}
-	
 	}
 	
 	return 0;
